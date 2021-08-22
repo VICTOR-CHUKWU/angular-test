@@ -1,0 +1,17 @@
+.datas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2rem 1rem;
+
+}
+
+.datas-item{
+    background: #ccc;
+    padding: 1rem;
+    color: darkcyan;
+    line-height: 24px;
+    font-weight: 500;
+}
+.reminder{
+    border-left: 2px solid green;
+}

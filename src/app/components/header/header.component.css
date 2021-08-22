@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+
+}
+.title{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}

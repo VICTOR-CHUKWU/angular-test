@@ -1,0 +1,9 @@
+<div class="datas">
+   <div class="datas-item" [ngClass]='{reminder: data.reminder}' (click)="onToggle(data)">
+    <h3>{{data.head}}
+       <button class="btn-delete" (click)='deleteData(data)'>delete</button>
+    </h3>
+    <p>{{data.sub}}</p>
+    
+   </div>
+</div>

@@ -1,0 +1,16 @@
+<form *ngIf='showAddData' (ngSubmit)='onSubmit()'>
+    <div class="form-group">
+      <label for="title">title</label>
+      <input type="text" class="form-control" id="title" aria-describedby="emailHelp" name="head" [(ngModel)]="head">
+      <small id="emailHelp" class="form-text text-muted">kindly input title here</small>
+    </div>
+    <div class="form-group">
+      <label for="text">text</label>
+      <input type="text" class="form-control" id="text" name="sub" [(ngModel)]="sub">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="reminderCheck1" name="reminder" [(ngModel)]="reminder">
+      <label class="form-check-label" for="exampleCheck1">reminder</label>
+    </div>
+    <button type="submit" class="btn btn-primary ">Submit</button>
+  </form>

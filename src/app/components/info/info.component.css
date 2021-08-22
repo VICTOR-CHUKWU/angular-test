@@ -1,0 +1,40 @@
+.ngtemp{
+    position: relative;
+    /* position: absolute;
+    background: #000;
+    opacity: .3;
+    left: 0;
+    top: 1rem;
+    bottom: 0;
+    right: 0; */
+}
+
+input:focus{
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+}
+select{
+    border-radius: 10px;
+    background: lightgray;
+   
+   
+}
+.input-absolute{
+    background: lightgray;
+    border-radius: 10px;
+    
+}
+option{
+    color: black;
+    background: lightgray;
+    padding: .4rem;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+option:hover{
+    background: none !important;
+    color: black;
+}

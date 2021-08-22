@@ -1,0 +1,4 @@
+<app-add-data  (addData)='dataAdd($event)'></app-add-data>
+<app-info-item *ngFor='let data of datas' [data]='data' (DeleteData)='removeSingleData(data)' (toggleReminder)="reminderToggle(data)"></app-info-item>
+
+

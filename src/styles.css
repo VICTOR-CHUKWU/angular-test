@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+.flex-btw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-regular{
+    padding: 0.35rem 2rem;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgb(153, 38, 240) ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    margin-left: .5rem;
+    color: white;
+}
+.bg-regular{
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.85), rgba(209, 34, 227, 0.85));
+}
+.main{
+    padding: 2rem 4rem 1rem 4rem;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+.btn-delete{
+    color: red;
+    border: 1px solid green;
+}
